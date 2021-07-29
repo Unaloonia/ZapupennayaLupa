@@ -1,8 +1,5 @@
 import os
 
-def func():
-    zapupitlupu()
-
 def zapupitlupu():
     try:
         os.rename("лупа","пупа")
@@ -15,5 +12,4 @@ def zapupitlupu():
         print("я хз что за ошибка")
 
 if __name__ == "__main__":
-    #zapupitlupu()
-    func()
+    zapupitlupu()
